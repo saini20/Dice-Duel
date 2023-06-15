@@ -1,0 +1,41 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  background-color: #faf0e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.game {
+  background-color: #faf0e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9bcdd2;
+  height: 420px;
+}
+.player1 {
+  padding: 20px;
+  margin: 10px;
+}
+.footer {
+  height: 120px;
+  background-color: #ff8551;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .players {
+    display: flex;
+    flex-direction: column;
+  }
+}
